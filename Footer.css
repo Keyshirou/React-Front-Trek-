@@ -1,0 +1,42 @@
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    width: 102%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: rgb(20, 20, 20);
+}
+
+.footer a {
+    color: aliceblue;
+    margin: 0px 30px 0px 30px;
+}
+
+.footer a .active {
+    color: aliceblue;
+}
+
+
+/* footer con el color que aparecerá al pulsar los iconos de redes sociales */
+
+.footer a:hover {
+    color: rgb(240, 245, 98);
+    transition: ease-in .4s;
+}
+
+.footer-barra {
+    width: 102%;
+    border-bottom: 0.5px solid #fff;
+}
+
+.footer span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(240, 245, 98);
+}
+
+.footer h3 {
+    font-size: 15px;
+}

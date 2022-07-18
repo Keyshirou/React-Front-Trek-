@@ -1,0 +1,74 @@
+    /* import de las fuentes a utilizar */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Permanent+Marker&family=Roboto+Mono:wght@100&family=Roboto:wght@300;900&family=Rubik+Glitch&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto+Mono:wght@100&family=Roboto:wght@300;900&display=swap');
+    /* configuraciones previas */
+    
+    * {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* configuracion de la barra de navegacion */
+    /* se añadio un z-indes de 20 para que el texto principal no pasar por encima de la barra al hacer scroll */
+    
+    .App-header {
+        background-color: rgb(20, 20, 20);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        transition: 0.7s;
+        padding: 15px;
+        z-index: 20;
+    }
+    /* manipulacion del logo de TREK en la barra de navegacion, con una linea inferior  */
+    
+    .App-header .logo img {
+        width: 300px;
+        margin-left: -100px;
+    }
+    /* Barra de navegación */
+    
+    .NavBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .App-header ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .App-header ul li {
+        list-style: none;
+    }
+    /* texto de las opciones de la barra de navegacion */
+    
+    .App-header ul li a {
+        font-size: 20px;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        margin: 0 15px;
+        text-decoration: none;
+        color: aliceblue;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+    }
+    /* menu activo con el color inicial de las opciones de la barra de navegación  */
+    
+    .App-header a .active {
+        color: aliceblue;
+        transition: all 300ms;
+    }
+    /* menu con el color que aparecerá al pulsar o poner el mouse sobre las opciones y el tiempo de transicion */
+    
+    .App-header a:hover {
+        color: rgb(240, 245, 98);
+    }

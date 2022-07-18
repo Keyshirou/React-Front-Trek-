@@ -1,0 +1,95 @@
+/* Cuarta Sección, contenedor del formulario de contacto */
+
+.zona4 {
+    margin-top: -15px;
+    padding-top: 80px;
+    width: 102%;
+    height: 95vh;
+    background-image: url('../images/formwallpaper.jpeg');
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.zona4 h1 {
+    padding-top: 200px;
+    font-size: 60px;
+}
+
+.zona4 p {
+    font-size: 30px;
+}
+
+
+/* Formulario */
+
+.zona4 form {
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 380px;
+    width: 50%;
+    border: 0.5px solid #fff;
+    align-items: center;
+}
+
+.zona4 h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    border: 0.5px solid #fff;
+}
+
+.zona4 form .mb-3 {
+    width: 85%;
+    padding-left: 100px;
+}
+
+
+/* input text */
+
+
+/* eliminando el fondo blanco por defecto de los input y el redondeado en los bordes */
+
+.zona4 [id='text'] {
+    background: none;
+    height: 40px;
+    border-radius: 0px;
+}
+
+.zona4 [id='email'] {
+    background: none;
+    height: 40px;
+    border-radius: 0px;
+}
+
+.zona4 [id='textarea'] {
+    background: none;
+    height: 70px;
+    border-radius: 0px;
+}
+
+
+/* boton del formulario  */
+
+.zona4 button {
+    margin: 20px;
+    width: 80px;
+    color: #fff;
+    background-color: black;
+    border: 0.5px solid #fff;
+    font-size: 16px;
+}
+
+
+/* transicion de color y zoom del boton */
+
+.zona4 button {
+    transition: all 400ms;
+}
+
+.zona4 button:hover {
+    transform: scale(1.2);
+    color: rgb(240, 245, 98);
+    border: 0.5px solid rgb(240, 245, 98);
+}

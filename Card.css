@@ -1,0 +1,30 @@
+.card {
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.072);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.card a {
+    padding: 8px;
+    color: #fff;
+    background-color: black;
+    border: 0.5px solid #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* transicion de color y zoom del boton */
+
+.card a {
+    transition: all 400ms;
+}
+
+.card a:hover {
+    color: rgb(240, 245, 98);
+    border: 0.5px solid rgb(240, 245, 98);
+}

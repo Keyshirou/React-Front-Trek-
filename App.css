@@ -1,0 +1,75 @@
+    /* import de las fuentes a utilizar */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Permanent+Marker&family=Roboto+Mono:wght@100&family=Roboto:wght@300;900&family=Rubik+Glitch&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto+Mono:wght@100&family=Roboto:wght@300;900&display=swap');
+    /* configuraciones previas */
+    
+    * {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* scroll del tamaño de la barra de navegacion para que no tape parte del contenido al estar fixed */
+    
+    section[id] {
+        scroll-margin-top: 50px;
+    }
+    /* smooth para hacer un scroll mas suave */
+    
+    html {
+        background-color: rgb(20, 20, 20);
+        scroll-behavior: smooth;
+    }
+    /* Primera sección contenedora del Carousel */
+    
+    .zona1 {
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-position: center center;
+        background-color: rgb(20, 20, 20);
+    }
+    /* texto principal con sombreado y png's, se le agrego un margin top para poder pulsar la barra de navegacion */
+    
+    .zona1 h1 {
+        margin-top: 60px;
+        padding-top: 70px;
+        padding-left: 40px;
+        position: absolute;
+        z-index: 10;
+        color: #fff;
+        font-size: 90px;
+        font-family: 'Rubik Glitch', cursive;
+        text-shadow: 2px 2px 2px rgb(20, 20, 20);
+        transform: rotate(-4deg);
+    }
+    /* texto separado del principal para manipular distintos elementos */
+    
+    .zona1 span {
+        color: rgb(20, 20, 20);
+        text-shadow: 1px 1px 1px rgb(240, 245, 98);
+    }
+    /* manipulacion del primer png ( logo de TREK ) */
+    
+    .zona1 h1 img {
+        width: 600px;
+    }
+    /* manipulacion del segundo png utilizando su id */
+    
+    .zona1 h1 [id='subray'] {
+        width: 800px;
+        height: 80px;
+        margin-top: -70px;
+        margin-left: -20px;
+    }
+    /* texto inferior */
+    
+    .zona1 h3 {
+        font-size: 3vw;
+    }
+    /* texto final de la primera sección */
+    
+    .zona1 p {
+        font-size: 2vw;
+    }

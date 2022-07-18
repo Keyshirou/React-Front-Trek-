@@ -1,0 +1,17 @@
+/* Tercera sección contenedora de los cards con catálogo  */
+
+.zona3 {
+    margin-top: -25px;
+    padding-top: 80px;
+    width: 102%;
+    height: 95vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.zona3 h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
